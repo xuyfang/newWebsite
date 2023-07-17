@@ -1,0 +1,38 @@
+html{
+    background-color: #300202;
+    font-family:  'Noto Sans SC', sans-serif;
+}
+
+h1{
+    margin: 0;
+    padding: 20px 0;
+    font-size: 50px;
+    text-align: center;
+    text-shadow: 3px 3px 1px black;
+    color: aliceblue;
+}
+
+p,
+li{
+    font-size: 18px;
+    line-height: 2;
+    letter-spacing: 1px;
+    color: aliceblue;
+}
+
+body{
+    /* 强制页面永远保持600像素宽 */
+    width:600px;
+    /* 第一个影响上下方向，第二个影响左右方向 (这里，auto 是一个
+    特殊的值，它将可用的水平空间平均分配给左和右）*/
+    margin:0 auto;
+    background-color: #700202;
+    padding:0px 20px 20px 20px;
+    boder:5px solid black;
+
+}
+
+img{
+    display: block;
+    margin: 0 auto;
+}
